@@ -10,6 +10,9 @@ body{
   transform: translate(-50%, -50%);
 }
 
+textarea, select, input, button { outline: none; }
+
+
 input{
 	border: 0;
 	width: 800px;
@@ -17,6 +20,8 @@ input{
 	opacity: 0.8;
 	border-radius: 4px;
 	box-shadow: none;
+	padding-left: 30px;
+	font-size: 18px;
 }
 
 input:focus { 
